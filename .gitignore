@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Build binaries & objects
+*.exe
+backend/*.exe
+backend/tests/*.exe
+backend/include/*.o
+*.o
+
+# Local database (runtime data)
+*.db
+*.db-journal
+data/*.db
+!data/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE & OS files
+.vscode/
+.idea/
+.env
+.DS_Store
+Thumbs.db
